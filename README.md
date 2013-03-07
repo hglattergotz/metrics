@@ -37,27 +37,27 @@ $metrics->initMembers(array('counter1', 'counter2', 'counter3', 0))
 ```
 This initializes the named counters to 0 with a single call.
 
-#### Output as Array
+#### Output to Array
 
 ```php
-$arrayResult = $metrics->toArray();
 <?php
+$arrayResult = $metrics->toArray();
 ```
 
-#### Output as JSON
+#### Output to JSON
 
 ```php
-$json = $metrics->toJson();
 <?php
+$json = $metrics->toJson();
 ```
 
 #### Sample output (JSON)
 
 ```json
 {
-    "counter1": 23,
-    "counter2": 569,
-    "elapsed-time": "00:00:24"
+  "counter1": 23,
+  "counter2": 569,
+  "elapsed-time": "00:00:24"
 }
 ```
 
