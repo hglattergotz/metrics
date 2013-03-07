@@ -7,6 +7,18 @@ collected and then logged.
 
 The collected data can be emitted as an array or as a JSON string.
 
+### Installation
+
+Using Composer:
+
+```json
+{
+    "require": {
+        "hgg/metrics": "*"
+    }
+}
+```
+
 ### Usage
 
 #### Simple use case
