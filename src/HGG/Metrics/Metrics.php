@@ -90,8 +90,7 @@ class Metrics
         if (isset($this->values[$name])) {
             return $this->values[$name];
         } else {
-            throw new \Exception(__METHOD__.':'.__LINE__.'|The property '.$name.
-              ' does not exist.');
+            throw new \Exception('The property '.$name.' does not exist.');
         }
     }
 
