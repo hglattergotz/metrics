@@ -1,0 +1,22 @@
+{
+    "name": "hgg/metrics",
+    "type": "library",
+    "description": "Minimalistic library for collecting metrics during script execution",
+    "keywords": [ "metrics" ],
+    "homepage": "http://github.com/hglattergotz/metrics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henning Glatter-Götz",
+            "email": "henning@glatter-gotz.com",
+            "homepage": "http://glatter-gotz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "HGG\\Metrics\\": "src/" }
+    }
+}
+
