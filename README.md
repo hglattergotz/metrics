@@ -36,9 +36,9 @@ while (1) {
 print_r($metrics->toArray());
 ```
 
-The above is a construction with time tracking turned on and a single counter
-that is incremented as a result of some process. The metrics container is then
-emitted as an array.
+The above constructs a Metrics object with time tracking turned on and a single
+counter that is incremented as a result of some process. The metrics container
+is then emitted as an array.
 
 #### Initialize multiple counters more efficiently
 
@@ -69,6 +69,7 @@ $json = $metrics->toJson();
 {
   "counter1": 23,
   "counter2": 569,
+  "counter3": 0,
   "elapsed-time": "00:00:24"
 }
 ```
