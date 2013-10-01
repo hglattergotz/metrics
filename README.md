@@ -45,7 +45,7 @@ is then emitted as an array.
 ```php
 <?php
 $metrics = new Metrics(true);
-$metrics->initMembers(array('counter1', 'counter2', 'counter3', 0))
+$metrics->initMembers(array('counter1', 'counter2', 'counter3'), 0);
 ```
 This initializes the named counters to 0 with a single call.
 

@@ -22,9 +22,27 @@ use HGG\Metrics\Timer;
  */
 class Metrics
 {
+    /**
+     * The values to be tracked/counted
+     *
+     * @var bool
+     * @access protected
+     */
     protected $values = array();
+
+    /**
+     * @var HGG\Metrics\Timer
+     * @access protected
+     */
     protected $timer;
 
+    /**
+     * __construct
+     *
+     * @param bool $recordTime
+     * @access public
+     * @return void
+     */
     public function __construct($recordTime = false)
     {
         if ($recordTime) {
