@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/hglattergotz/metrics.png)](https://travis-ci.org/hglattergotz/metrics)
+[![Latest Stable Version](https://poser.pugx.org/hgg/metrics/v/stable.svg)](https://packagist.org/packages/hgg/metrics)
+[![License](https://poser.pugx.org/hgg/metrics/license.svg)](https://packagist.org/packages/hgg/metrics)
+[![Code Climate](https://codeclimate.com/github/hglattergotz/metrics/badges/gpa.svg)](https://codeclimate.com/github/hglattergotz/metrics)
 
 Metrics is a container for keeping track of counters or any value for that
 matter and for tracking time. A common application would be to use it for a
