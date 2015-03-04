@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hglattergotz/metrics.png)](https://travis-ci.org/hglattergotz/metrics)
+[![Build Status](https://travis-ci.org/hglattergotz/metrics.svg)](https://travis-ci.org/hglattergotz/metrics)
 [![Latest Stable Version](https://poser.pugx.org/hgg/metrics/v/stable.svg)](https://packagist.org/packages/hgg/metrics)
 [![License](https://poser.pugx.org/hgg/metrics/license.svg)](https://packagist.org/packages/hgg/metrics)
 [![Code Climate](https://codeclimate.com/github/hglattergotz/metrics/badges/gpa.svg)](https://codeclimate.com/github/hglattergotz/metrics)
